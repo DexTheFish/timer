@@ -5,6 +5,6 @@ for (let t of times) {
     setTimeout(() => {
       process.stdout.write('\x07');
       console.log('beep!');
-    }, Math.floor(Number(t)*1000));
+    }, Math.floor(Number(t) * 1000));
   }
 }
